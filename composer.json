@@ -1,0 +1,28 @@
+{
+    "name": "santoshact360/laravel-esewa",
+    "description": "A E-sewa payment gateaway integration for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santosh Jung Shahi",
+            "email": "santosh.act360@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Esewa\\": "src/Esewa"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    }
+}
