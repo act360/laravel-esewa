@@ -8,7 +8,7 @@
             "email": "santosh.act360@gmail.com"
         }
     ],
-    "minimum-stability": "dev-master",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.5.9",
         "illuminate/database": "~5.3",
