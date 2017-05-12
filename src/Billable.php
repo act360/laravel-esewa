@@ -14,7 +14,7 @@ trait Billable
      * @param  array $requests
      * @return Response
      */
-    public function createPayment($httpVerb, $url, $requests = null)
+    public function charge($httpVerb, $url, $requests = null)
     {
         try {
             (new Esewa_Http())->_doRequest($httpVerb, $url, $requests);
