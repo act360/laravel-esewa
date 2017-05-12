@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Esewa\\": "esewa/src"
+            "Esewa\\": "src/"
         }
     },
     "require-dev": {
