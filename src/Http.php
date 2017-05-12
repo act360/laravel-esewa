@@ -15,14 +15,6 @@ class Http
         $this->_config = $config;
     }
 
-    private function _getHeaders()
-    {
-        return [
-            'Accept: application/xml',
-            'Content-Type: application/xml',
-        ];
-    }
-
     private function _doRequest($httpVerb, $path, $requestBody = null)
     {
         return $this->_doUrlRequest($httpVerb, $this->_config->baseUrl() . $path, $requestBody);
