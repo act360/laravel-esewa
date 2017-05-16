@@ -58,7 +58,7 @@ class EsewaTest extends PHPUnit_Framework_TestCase
      * @test
      * @return void
      */
-    public function it_procceed_to_payment()
+    public function itChecksIfBillable()
     {
         $user = User::create([
             'email' => 'admin@esewa.com',

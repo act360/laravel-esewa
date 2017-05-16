@@ -2,10 +2,13 @@
 
 namespace Esewa;
 
+use Esewa\Exception\Esewa_Unexpected;
 use Esewa\Http as Esewa_Http;
+use Esewa\HttpConfig;
 
 trait Billable
 {
+    protected $url;
     /**
      * Create a payment request on esewa.
      *
@@ -14,11 +17,12 @@ trait Billable
      * @param  array $requests
      * @return Response
      */
-    public function charge($httpVerb, $url, $requests = null)
+    public function charge($requests = null)
     {
+        $url = getenv('ESEWA_TRANSACTION_URL')?:'https://www.esewa.com.np/main/';
         try {
-            (new Esewa_Http())->_doRequest($httpVerb, $url, $requests);
-        } catch (\Exception $e) {
+            (new Esewa_Http())->createPayment($url, $requests);
+        } catch (Esewa_Unexpected $e) {
             throw new Exception("Error Processing Request", 1);
         }
     }
