@@ -1,6 +1,6 @@
 {
     "name": "santoshact360/laravel-esewa",
-    "description": "A E-sewa payment gateaway integration for laravel",
+    "description": "A E-sewa payment gateway integration for laravel",
     "license": "MIT",
     "authors": [
         {
