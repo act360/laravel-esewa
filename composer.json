@@ -19,9 +19,6 @@
         }
     },
     "require-dev": {
-        "illuminate/routing": "~5.3",
-        "illuminate/http": "~5.3",
-        "illuminate/view": "~5.3",
         "mockery/mockery": "~0.9",
         "phpunit/phpunit": "~4.0",
         "vlucas/phpdotenv": "~2.0"
