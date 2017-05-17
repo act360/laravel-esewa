@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Esewa\\": "laravel-esewa/src/"
+            "Esewa\\": "src/"
         }
     },
     "minimum-stability": "dev",
