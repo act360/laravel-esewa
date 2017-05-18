@@ -71,5 +71,5 @@ Class StoreController extends Controller
 }
 ```
 
-Done! You'll now able to use esewa gateway.
+Done! You'll now be able to use esewa gateway.
 
