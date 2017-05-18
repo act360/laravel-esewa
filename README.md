@@ -18,7 +18,7 @@ Next, if using Laravel 5, include the service provider within your `config/app.p
 ];
 ```
 
-Finally, add there variable to `.env`.
+Finally, add these variable to `.env`.
 
 ```env
 ESEWA_MERCHANT_ID=YOUR_ESEWA_MERCHANT_ID
