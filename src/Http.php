@@ -2,8 +2,6 @@
 
 namespace Esewa;
 
-use Esewa\HttpConfig;
-
 /**
  * HTTP Client
  * processes Http requests using curl
