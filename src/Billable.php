@@ -4,7 +4,6 @@ namespace Esewa;
 
 use Esewa\Exception\Esewa_Unexpected;
 use Esewa\Http as Esewa_Http;
-use Esewa\HttpConfig;
 
 trait Billable
 {
