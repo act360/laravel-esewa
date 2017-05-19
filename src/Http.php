@@ -20,6 +20,7 @@ class Http
 
         $query = http_build_query($request);
         header("Location: {$url}?" . $query);
+        exit();
     }
 }
 class_alias('Esewa\Http', 'Esewa_Http');
