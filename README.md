@@ -7,7 +7,7 @@ This composer package offers a E-sewa payment gateway setup for your Laravel app
 Begin by pulling in the package through Composer.
 
 ```bash
-composer require santoshact360/laravel-esewa
+composer require act360/laravel-esewa
 ```
 
 Next, if using Laravel 5, include the service provider within your `config/app.php` file.
